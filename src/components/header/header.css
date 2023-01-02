@@ -1,4 +1,4 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     flex: 1;
@@ -6,25 +6,27 @@
     position: relative;
     align-items: center;
 }
-.menu{
+
+.menu {
     background-color: white;
     display: flex;
     flex: 1;
     justify-content: flex-end;
 }
 
-.menu-icon{
+.menu-icon {
     font-size: 24px;
 }
 
-.mobile-menu{
+.mobile-menu {
     display: none;
 }
-.web-menu{
+
+.web-menu {
     display: flex;
 }
 
-.logo{
+.logo {
     display: flex;
     font-size: 36px;
     color: blue;
@@ -32,13 +34,15 @@
 }
 
 @media only screen and (max-width: 720px) {
-    .mobile-menu{
+    .mobile-menu {
         display: flex;
     }
-    .web-menu{
+
+    .web-menu {
         display: none;
     }
-    .logo{
+
+    .logo {
         font-size: 24px;
     }
 }

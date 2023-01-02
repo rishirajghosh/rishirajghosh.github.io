@@ -4,17 +4,18 @@ import Header from "../header/index";
 import Body from "../body/index";
 import Footer from "../footer/index";
 
-
 function Home() {
-  return ( <div className="home">
+  return (<div className="home">
     <div>
-        <Header />
+
+      <Header />
+
     </div>
     <div>
-        <Body />
+      <Body />
     </div>
     <div>
-        <Footer />
+      <Footer />
     </div>
   </div>
   );
