@@ -3,7 +3,7 @@ export const SkillsData = [
     type: "Programming Languages",
     list: [
       {
-        name: "Go, Java, C, Python, JavaScript, OCaml, Ruby, HTML, CSS",
+        name: "Go, Java, C, Python, JavaScript, Ruby, Rust, OCaml, HTML, CSS",
         // icon: <i class="devicon-react-original colored"></i>
       },
     ],
