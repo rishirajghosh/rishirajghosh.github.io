@@ -4,7 +4,7 @@
 
 <br/>
 
-Responsive Portfolio Website Design Using React.Js CSS &amp; HTML
+A responsive portfolio website I created using React.Js, CSS &amp; HTML
 
 ## Built With
 
