@@ -3,6 +3,7 @@
     flex-direction: column;
     width: 100%;
 }
+
 .work-list {
     display: flex;
     flex-wrap: wrap;
