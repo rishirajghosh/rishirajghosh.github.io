@@ -11,7 +11,7 @@ function About() {
           <br /> I'm an aspiring Software Engineer, currently studying Computer Science and Business at the University of Maryland, College Park.
         </div>
         <div className="about-photo">
-          <img style={{ width: 400, height: 400 }}
+          <img style={{ width: 400, height: 400, borderRadius: 150 / 2, overflow: "hidden", borderWidth: 3, borderColor: "blue" }}
             src={require("../../../assets/pfp.png")}
             className="picture"
           />
