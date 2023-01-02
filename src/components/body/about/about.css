@@ -1,7 +1,8 @@
 .about {
-    padding-bottom: 48px;
+    padding-bottom: 95px;
 }
-.about-top{
+
+.about-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,26 +11,31 @@
 .picture {
     height: 420px;
 }
+
 .about-info {
     font-size: 24px;
 }
+
 .info-name {
     color: blue;
     font-size: 32px;
 }
 
 @media only screen and (max-width: 720px) {
-    .about-top{
+    .about-top {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .picture {
-        height: 280px;
+        height: 400px;
     }
+
     .about-info {
-        font-size: 20px;
+        font-size: 28px;
     }
+
     .info-name {
         font-size: 26px;
     }

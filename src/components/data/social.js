@@ -1,14 +1,20 @@
-export const SocialData=[
+export const SocialData = [
     {
-        platform:"Telegram",
-        icon: require("../../assets/icons/telegram.png"),
-        link:"https://web.telegram.org/k/",
+        platform: "Linkedin",
+        icon: require("../../assets/icons/linkedin.png"),
+        link: "https://www.linkedin.com/in/rghosh24",
     },
     {
-        platform:"Github",
+        platform: "Github",
         icon: require("../../assets/icons/github.png"),
-        link:"https://github.com/ThantZinPhyo-OP",
+        link: "https://github.com/rghosh24",
     },
+    {
+        platform: "Email",
+        icon: require("../../assets/icons/gmail.png"),
+        link: "mailto:rishiraj.ghosh24@gmail.com",
+    },
+    /*
     {
         platform:"Youtube",
         icon: require("../../assets/icons/youtube.png"),
@@ -24,4 +30,5 @@ export const SocialData=[
         icon: require("../../assets/icons/facebook.png"),
         link:"https://www.facebook.com/thantzin.phyo.18",
     },
+    */
 ];

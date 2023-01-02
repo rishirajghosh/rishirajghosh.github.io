@@ -7,12 +7,12 @@ function About() {
       <div className="about-top">
         <div className="about-info">
           Hi, I am
-          <br /> <span className="info-name">Rishiraj Ghosh</span>.
+          <br /> <span className="info-name"> Rishiraj Ghosh</span>.
           <br /> I am an aspiring Software Engineer, currently studying Computer Science and Business at the University of Maryland, College Park.
         </div>
         <div className="about-photo">
-          <img
-            src={require("../../../assets/coding.png")}
+          <img style={{ width: 400, height: 400 }}
+            src={require("../../../assets/pfp.png")}
             className="picture"
           />
         </div>

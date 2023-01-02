@@ -9,27 +9,33 @@ function ProjectCard({ project }) {
           {project.demo && (
             <a className="project-link" href={project.demo}>
               <div className="link-button">
-                <i class="fi-rr-globe"></i>Demo
+                <i style={{ color: 'white' }} class="fi-rr-globe"></i><h7 style={{
+                  color:
+                    'white'
+                }}> Demo</h7>
               </div>
             </a>
-            )}
-            {project.github&& (
-              <a className="project-link" href={project.github}>
-                <div className="link-button">
-                <i class="devicon-github-original colored"></i>Github
+          )}
+          {project.github && (
+            <a className="project-link" href={project.github}>
+              <div className="link-button">
+                <i style={{ color: 'white' }} class="devicon-github-original colored"></i><h7 style={{
+                  color:
+                    'white'
+                }}> Github</h7>
               </div>
             </a>
-            )}
+          )}
         </div>
         <p>{project.about}</p>
         <div className="project-tags">
-          {project.tags.map((tag)=> {
+          {project.tags.map((tag) => {
             return <label className="tag">{tag}</label>;
           })}
         </div>
       </div>
       <img src={project.image} className="project-photo" />
-    </div>
+    </div >
   );
 }
 

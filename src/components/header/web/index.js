@@ -4,12 +4,12 @@ import './web.css';
 function Web() {
   return <div className="web">
     <div className="web-option">
-      <a href="#skills">
+      <a href="#work">
         <i class="fi-rr-laptop option-icon"></i>Work
       </a>
     </div>
     <div className="web-option">
-      <a href="#work">
+      <a href="#skills">
         <i class="fi-rr-briefcase option-icon"></i>Skills
       </a>
     </div>
