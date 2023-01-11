@@ -24,7 +24,7 @@ function Web() {
       </a>
     </div>
     <div className="web-option">
-      <a href="https://drive.google.com/file/d/1JgX0bjQIYt4l-BqrE2uOE81n7USXpID2/view?usp=share_link"> ~ Resume
+      <a href="https://drive.google.com/file/d/1pp-3dozh0dvVFOq1P0cIhuzAMlQRTYiC/view?usp=share_link"> ~ Resume
       </a>
     </div>
   </div>;
