@@ -3,6 +3,7 @@
     flex-direction: column;
     flex: 1;
 }
+
 .section-title {
     font-size: 32px;
     font-weight: 700;
@@ -13,5 +14,5 @@
     flex: 1;
     justify-content: center;
     text-align: center;
-    
+
 }

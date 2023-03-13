@@ -2,12 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-width: 3px;
+    border-style: solid;
+    border-color: grey;
 }
 
 .social-icon-div {
-    padding: 100px;
+    padding: 50px;
     cursor: pointer;
-    margin: -65px;
+    margin: -10px;
 }
 
 .social-icons {

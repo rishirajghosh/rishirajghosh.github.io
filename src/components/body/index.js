@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import "./body.css";
 import About from "./about/index";
 import Projects from "./projects/index";

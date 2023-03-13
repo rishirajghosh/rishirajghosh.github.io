@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from 'react';
+import { useState } from "react";
 import "./header.css";
 import Mobile from "./mobile";
 import Web from "./web/index";
