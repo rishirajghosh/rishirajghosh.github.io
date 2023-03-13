@@ -1,4 +1,3 @@
-import Rect from 'react';
 export const SocialData = [
     {
         platform: "Linkedin",
