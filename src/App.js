@@ -3,7 +3,14 @@ import Home from "./components/home/index";
 
 function App() {
   return (
-    <Home />
+
+    <div
+      style={{
+        backgroundColor: "#d8f9ff",
+      }}
+    >
+      <Home />
+    </div>
   );
 }
 
