@@ -1,4 +1,4 @@
-.project-card{
+.project-card {
     flex: 1;
     display: flex;
     justify-content: space-between;
@@ -6,27 +6,28 @@
     margin: 16px 0px;
     padding: 8px 0px;
 }
-.project-photo{
+
+.project-photo {
     width: 40%;
 }
 
-.project-info{
+.project-info {
     margin-right: 24px;
 }
 
-.project-title{
+.project-title {
     font-size: 20px;
     font-weight: 600;
 }
 
-.project-tags{
+.project-tags {
     display: flex;
     max-width: 60%;
     flex-wrap: wrap;
 }
 
 .tag {
-    padding:  4px 8px;
+    padding: 4px 8px;
     background-color: blue;
     border-radius: 4px;
     margin-right: 6px;
@@ -38,7 +39,7 @@
     color: black;
 }
 
-.project-links{
+.project-links {
     margin-top: 6px;
     display: flex;
 }
@@ -65,13 +66,16 @@
     .project-photo {
         width: 70%;
     }
+
     .project-card {
         flex-direction: column-reverse;
     }
+
     .project-info {
         margin-left: 0px;
         margin-top: 12px;
     }
+
     .project-tags {
         max-width: 100%;
     }

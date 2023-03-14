@@ -26,6 +26,15 @@
     height: 100%;
 }
 
+.navbar.fixed {
+    font-size: 24px;
+    margin: 12px 0px;
+    display: flex;
+    font-weight: 700;
+    background-color: rgb(208, 226, 254);
+    transition: .3s ease-in-out;
+}
+
 .mobile-option {
     font-size: 24px;
     margin: 12px 0px;
