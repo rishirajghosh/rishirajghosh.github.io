@@ -12,7 +12,7 @@ function About() {
         </div>
         <div className="about-photo">
           <img style={{ width: 400, height: 400, borderRadius: 150 / 2, overflow: "hidden", borderWidth: 3, borderColor: "blue" }}
-            src={require("../../../assets/pfp.png")}
+            src={require("../../../assets/pfpTransparent.png")}
             className="picture"
           />
         </div>
