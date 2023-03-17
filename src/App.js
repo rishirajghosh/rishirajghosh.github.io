@@ -1,7 +1,8 @@
 import React, { useCallback } from "react";
 import Home from "./components/home/index";
-import { loadFull } from "tsparticles"
 import Particles from "react-tsparticles"
+import { loadFull } from "tsparticles"
+
 
 function App() {
   const init = useCallback(async (engine) => {
