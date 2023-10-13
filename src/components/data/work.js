@@ -1,12 +1,12 @@
 export const WorkData = [
 
     {
-        company: "Uber - Incoming Software Engineer Intern",
-        designation: "Incoming Software Engineer Intern",
+        company: "Uber - Software Engineer Intern",
+        designation: "Software Engineer Intern",
         dateJoining: "May 2023",
         dateEnd: "Aug. 2023",
         companyLogo: "https://helios-i.mashable.com/imagery/articles/03y6VwlrZqnsuvnwR8CtGAL/hero-image.fill.size_1248x702.v1623372852.jpg",
-        work: "Marketplace Engineering Team"
+        work: "Developed a backend signal Flink Job on the Driver App that sends a notification to Early Lifecycle drivers after 5 minutes of not receiving a dispatch. Processes 7k Kafka messages & gRPC calls per second to guide ELC drivers to Predicted High Earnings areas."
     },
 
     {
