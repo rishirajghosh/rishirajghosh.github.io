@@ -15,6 +15,6 @@ export const WorkData = [
         dateJoining: "May 2022",
         dateEnd: "Aug. 2022",
         companyLogo: "https://i0.wp.com/ncil.org/wp-content/uploads/2018/03/CENTENE-Logo.jpg?ssl=1",
-        work: "Backend developer in GoLang working in an Agile/Scrum team environment with Jira & Gitlab. Authored and developed an API to act as a watchdog service for the TruCare Health team’s rules engine.",
+        work: "Backend developer in GoLang at a Fortune 25 Healthcare company. Authored and developed a watchdog service API for the TruCare Health team’s rules engine, which handles CRUD functionality for healthcare authorizations.",
     },
 ]

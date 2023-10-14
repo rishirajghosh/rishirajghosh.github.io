@@ -3,7 +3,7 @@ export const SkillsData = [
     type: "Programming Languages",
     list: [
       {
-        name: "Go, Java, C, Python, JavaScript, Ruby, Rust, OCaml, HTML, CSS",
+        name: "Java, Go, C, Python, JavaScript, Ruby, Rust, OCaml, HTML, CSS",
         // icon: <i class="devicon-react-original colored"></i>
       },
     ],
@@ -12,7 +12,7 @@ export const SkillsData = [
     type: "Technologies/Frameworks",
     list: [
       {
-        name: "Angular, Tensorflow, Keras, Postman, Jira, NodeJS, React, JUnit",
+        name: "Kafka, Flink, Docker, React, Tensorflow, Keras, Postman, SQL, Git, NodeJS, JUnit",
         // icon: <i class="devicon-firebase-plain colored"></i>
       },
     ],
