@@ -1,13 +1,24 @@
-import React, { useCallback } from "react";
+import React, { useEffect, useCallback, useState } from "react";
 import Home from "./components/home/index";
 import Particles from "react-tsparticles"
 import { loadFull } from "tsparticles"
 
-
 function App() {
-  const init = useCallback(async (engine) => {
+  const [startParticles, setStartParticles] = useState(false);
+
+  const initParticles = useCallback(async (engine) => {
     await loadFull(engine)
-  })
+  }, []);
+
+  useEffect(() => {
+    // Delay starting particles by 3000 milliseconds (3 seconds)
+    const timeoutId = setTimeout(() => {
+      setStartParticles(true);
+    }, 3000);
+
+    // Cleanup the timeout to avoid memory leaks
+    return () => clearTimeout(timeoutId);
+  }, []);
 
   return (
     <div
@@ -15,31 +26,34 @@ function App() {
         backgroundColor: "#d8f9ff",
       }}
     >
-      <Particles options={{
+      {startParticles && (<Particles options={{
         particles: {
           color: {
             value: "#bebebe"
           },
           number: {
-            value: 100
+            value: 80
           },
           opacity: {
-            value: { min: 0.3, max: 1 }
+            value: { min: 0.3, max: 0.9 }
           },
           shape: {
             type: "circle"
           },
           size: {
-            value: { min: 1, max: 5 }
+            value: { min: 1, max: 4 }
           },
           move: {
             direction: "bottom-right",
             enable: true,
             speed: { min: 3, max: 5 },
-            straight: true
+            straight: false
+          },
+          collisions: { 
+            enable: false 
           }
         }
-      }} init={init} />
+      }} init={initParticles} />)}
       <Home />
     </div >
   );

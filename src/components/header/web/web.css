@@ -6,7 +6,7 @@
 
 .navbar.fixed {
     font-size: 20px;
-    margin-top: 16px;
+    margin-top: calc(50vh - 115px);
     margin-right: 400px;
     font-weight: 700;
     background-color: rgb(208, 226, 254);
@@ -19,12 +19,37 @@
     margin-right: 400px;
     font-weight: 700;
 }
+  
+.glow-image {
+    height: auto;
+    transition: filter 0.5s ease-in-out;
+}
+
+.web-option:hover .glow-image {
+    filter: brightness(1.4) drop-shadow(0 0 5px rgba(0, 81, 43, 0));
+}
+
+.navbar.fixed:hover .glow-image {
+    filter: brightness(1.4) drop-shadow(0 0 5px rgba(0, 81, 43, 0));
+}
 
 .web-option a {
     text-decoration: none;
     color: blue;
     display: flex;
     align-items: center;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: rgb(0, 160, 155);
+}
+
+a:active {
+    color: rgb(0, 0, 0)
 }
 
 .option-icon {

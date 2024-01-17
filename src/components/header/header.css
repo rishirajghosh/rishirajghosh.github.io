@@ -28,9 +28,20 @@
 
 .logo {
     display: flex;
+    align-items: center;
     font-size: 36px;
     color: blue;
     font-weight: 800;
+    cursor: pointer;
+}
+  
+.glow-image {
+    height: auto;
+    transition: filter 0.5s ease-in-out;
+}
+
+.logo:hover .glow-image {
+    filter: brightness(1.4) drop-shadow(0 0 5px rgba(0, 81, 43, 0));
 }
 
 @media only screen and (max-width: 720px) {

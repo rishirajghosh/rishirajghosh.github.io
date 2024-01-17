@@ -7,22 +7,22 @@ function ProjectCard({ project }) {
         <label className="project-title">{project.title}</label>
         <div className="project-links">
           {project.demo && (
-            <a className="project-link" href={project.demo}>
+            <a className="project-link" href={project.demo} target="_blank" rel="noopener noreferrer">
               <div className="link-button">
-                <i style={{ color: 'white' }} class="fi-rr-globe"></i><h7 style={{
+                <i style={{ color: 'white' }} class="fi-rr-globe" alt ="demo"></i><h7 style={{
                   color:
                     'white'
-                }}> Demo</h7>
+                }}>&nbsp;Demo</h7>
               </div>
             </a>
           )}
           {project.github && (
-            <a className="project-link" href={project.github}>
+            <a className="project-link" href={project.github} target="_blank" rel="noopener noreferrer">
               <div className="link-button">
-                <i style={{ color: 'white' }} class="devicon-github-original colored"></i><h7 style={{
+                <i style={{ color: 'white' }} class="devicon-github-original colored" alt="github"></i><h7 style={{
                   color:
                     'white'
-                }}> Github</h7>
+                }}>&nbsp;Github</h7>
               </div>
             </a>
           )}

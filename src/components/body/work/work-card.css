@@ -1,7 +1,7 @@
 .work-card {
-    padding: 8px;
+    padding: 0px;
     width: 85%;
-    margin-top: 16px;
+    margin-top: -18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,7 +10,8 @@
 
 .work-logo {
     height: 80px;
-    width: 180px;
+    width: 190px;
+    border: 1px solid blue;
 }
 
 .work-info {

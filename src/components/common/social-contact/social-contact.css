@@ -2,19 +2,52 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-width: 3px;
-    border-style: solid;
-    border-color: grey;
+    border-width: 2px;
+    border-style: outset;
+    /* border-color: grey; */
 }
 
 .social-icon-div {
-    padding: 50px;
+    padding: 30px;
     cursor: pointer;
-    margin: -10px;
+    margin: 20px;
+    margin-inline: 80px;
 }
 
 .social-icons {
     height: 40px;
+}
+
+/* Glowing effect styles */
+.glow-container {
+    padding: 30px;
+    cursor: pointer;
+    margin: 20px;
+    margin-inline: 80px;
+    display: inline-block;
+    position: relative;
+  }
+  
+.glow-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: filter 0.5s ease-in-out;
+}
+
+.glow-image2 {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: filter 0.5s ease-in-out;
+}
+  
+.glow-container:hover .glow-image {
+    filter: brightness(1.6) drop-shadow(0 0 5px rgba(255, 255, 255, 0.358));
+}
+
+.glow-container:hover .glow-image2 {
+    filter: brightness(1.2) drop-shadow(0 0 5px rgba(255, 255, 255, 0.358));
 }
 
 @media only screen and (max-width: 720px) {

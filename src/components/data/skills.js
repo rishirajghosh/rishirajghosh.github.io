@@ -3,16 +3,16 @@ export const SkillsData = [
     type: "Programming Languages",
     list: [
       {
-        name: "Java, Go, C, Python, JavaScript, Ruby, Rust, OCaml, HTML, CSS",
+        name: "Java, Go, Python, C, SQL, JavaScript, Ruby, Rust, OCaml, HTML, CSS",
         // icon: <i class="devicon-react-original colored"></i>
       },
     ],
   },
   {
-    type: "Technologies/Frameworks",
+    type: "Technologies",
     list: [
       {
-        name: "Kafka, Flink, Docker, React, Tensorflow, Keras, Postman, SQL, Git, NodeJS, JUnit",
+        name: "Kafka, Flink, Spark, React, Docker, Tensorflow, Keras, Pandas, Sklearn, Postman, Git, NodeJS, Linux",
         // icon: <i class="devicon-firebase-plain colored"></i>
       },
     ],

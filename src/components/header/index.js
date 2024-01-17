@@ -10,7 +10,12 @@ function Header() {
   return (
     <div className="header">
       <div className="logo">
-        <p><a href="https://rishirajghosh.github.io/"><img style={{ width: 45, height: 30 }} src={require("../../assets/rishi.png")} alt={"Rishiraj Ghosh"} /></a> | Rishiraj Ghosh</p></div>
+          <a href="https://rishirajghosh.github.io/">
+              <img style={{ width: 45, height: 30 }} src={require("../../assets/rishi2.png")} className='glow-image' alt={"Rishiraj Ghosh"} />
+          </a>
+          <i className="fi fi-rr-file-user" style={{ fontSize: 'smaller', color: "#363636", verticalAlign: 'middle', margin: '10px 10px 0', marginRight: '8px' }}></i>
+          <p>Rishiraj Ghosh</p>
+      </div>
       <div className="menu">
         <div className="web-menu">
           <Web />

@@ -5,14 +5,23 @@
 }
 
 .section-title {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 700;
 }
 
-.contact-container {
+.contact-left {
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.contact-center {
     display: flex;
     flex: 1;
     justify-content: center;
     text-align: center;
-
+    font-size: 20px;
 }

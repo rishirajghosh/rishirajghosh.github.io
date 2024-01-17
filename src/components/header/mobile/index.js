@@ -6,7 +6,7 @@ function Mobile() {
   const [fix, setFix] = useState(false)
 
   function setFixed() {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 725) {
       setFix(true)
     } else {
       setFix(false)
@@ -55,13 +55,17 @@ function Mobile() {
           <tr>
             <td>
               <div className="mobile-option">
-                <a href="https://drive.google.com/file/d/1pp-3dozh0dvVFOq1P0cIhuzAMlQRTYiC/view?usp=share_link">~Resume
+                <a href="https://drive.google.com/file/d/1pp-3dozh0dvVFOq1P0cIhuzAMlQRTYiC/view?usp=share_link">
+                  <i class="fi fi-rr-document"></i>Resume
                 </a>
               </div>
             </td>
-            <td>
-              <div className="logo">
-                <h7>      |  </h7><a href="https://rishirajghosh.github.io/"><img style={{ width: 45, height: 30 }} src={require("../../../assets/rishi.png")} alt={"Rishiraj Ghosh"} /></a></div>
+            <td style={{ display: 'flex', justifyContent: 'flex-end'}}>
+              <div className="mobile-option">
+                <a href="#">
+                  <img style={{ width: 40, height: 29 }} src={require("../../../assets/rishi2.png")} alt={"Rishiraj Ghosh"} />
+                </a>
+              </div>
             </td>
           </tr>
 
