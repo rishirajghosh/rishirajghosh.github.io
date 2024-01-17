@@ -4,7 +4,7 @@
 
 <br/>
 
-A responsive portfolio website I created using React, CSS &amp; HTML
+A responsive portfolio website I created using React, JavaScript, HTML &amp; CSS
 
 ## Built With
 
@@ -12,4 +12,5 @@ I used these technologies to build my portfolio website.
 
 - React
 - Javascript
+- HTML
 - CSS
