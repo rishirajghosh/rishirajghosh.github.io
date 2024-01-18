@@ -54,7 +54,7 @@ function Web() {
           <tr>
             <td>
               <div className="web-option">
-                <a href="https://drive.google.com/file/d/1pp-3dozh0dvVFOq1P0cIhuzAMlQRTYiC/view?usp=share_link" target="_blank" rel="noopener noreferrer">
+                <a href="rishirajghosh.github.io/src/assets/Rishiraj_Ghosh_resume.pdf" target="_blank" rel="noopener noreferrer">
                   <i class="fi fi-rr-document"></i>Resume
                 </a>
               </div>
