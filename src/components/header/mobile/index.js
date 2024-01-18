@@ -55,7 +55,7 @@ function Mobile() {
           <tr>
             <td>
               <div className="mobile-option">
-                <a href="src/assets/Rishiraj_Ghosh_resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="https://rishirajghosh.github.io/src/assets/Rishiraj_Ghosh_resume.pdf" target="_blank" type="application/pdf" rel="noopener noreferrer">
                   <i class="fi fi-rr-document"></i>Resume
                 </a>
               </div>
