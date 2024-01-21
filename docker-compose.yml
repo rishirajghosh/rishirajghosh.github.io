@@ -6,8 +6,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: reactjs-app
-    container_name: reactjs
+    image: nodejs-app
+    container_name: nodejs
     restart: unless-stopped
     
     networks:
