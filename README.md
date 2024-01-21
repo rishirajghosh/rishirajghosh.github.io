@@ -25,7 +25,7 @@ Due to using ReactJS instead of NodeJS:
 - To test docker-compose.yml: ```docker-compose up -d --force-recreate```
 - Since the nginx web server must use HTTP port 80, I am running the docker container on localhost:8080/ instead of localhost:80. This way, when I start up docker-compose.yml, the nginx web server can successfully run without conflicting with my ReactJS application on port 80.
 
-## Built With
+## Built With:
 
 I used these technologies to build my portfolio website:
 
