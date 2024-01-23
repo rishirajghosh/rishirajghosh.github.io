@@ -34,7 +34,7 @@ function App() {
             value: { min: 0.3, max: 0.9 }
           },
           shape: {
-            type: window.innerWidth >= 768 ? "circle" : "star"
+            type: window.innerWidth >= 768 ? "circle" : "triangle"
           },
           size: {
             value: { min: 1, max: 4 }

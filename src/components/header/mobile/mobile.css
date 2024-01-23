@@ -1,7 +1,7 @@
 .mobile {
     background-color: "#d8f9ff";
     height: 8%;
-    width: 8%;
+    width: 60vw;
     position: absolute;
     right: 0px;
     top: -6px;
@@ -28,7 +28,7 @@
 
 .navbar.fixed {
     font-size: 24px;
-    margin: 300px 0px;
+    margin: 12px 0px;
     display: flex;
     font-weight: 700;
     background-color: rgb(208, 226, 254);
@@ -42,7 +42,6 @@
 }
 
 .mobile-option a {
-    font-size: 18px;
     text-decoration: none;
     color: blue;
     display: flex;
