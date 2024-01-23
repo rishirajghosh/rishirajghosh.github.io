@@ -7,7 +7,7 @@
     top: -6px;
     padding: 18px 12px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .close-icon {
