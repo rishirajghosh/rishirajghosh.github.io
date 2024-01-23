@@ -21,18 +21,14 @@ function App() {
   }, []);
 
   return (
-    <div
-      style={{
-        backgroundColor: "#d8f9ff",
-      }}
-    >
+    <div style={{ backgroundColor: "#d8f9ff", }}>
       {startParticles && (<Particles options={{
         particles: {
           color: {
             value: "#bebebe"
           },
           number: {
-            value: 80
+            value: window.innerWidth >= 768 ? 80 : 40
           },
           opacity: {
             value: { min: 0.3, max: 0.9 }
