@@ -4,7 +4,9 @@
     align-items: center;
     border-width: 2px;
     border-style: outset;
-    /* border-color: grey; */
+    border-color: transparent;
+    border-bottom-color: #d3d3d3;
+    border-right-color: #d3d3d3;
 }
 
 .social-icon-div {
@@ -53,5 +55,10 @@
 @media only screen and (max-width: 720px) {
     .social-icons {
         height: 24px;
+    }
+
+    .glow-container:hover .glow-image,
+    .glow-container:hover .glow-image2 {
+        filter: none; /* Remove filter on hover for mobile devices */
     }
 }
