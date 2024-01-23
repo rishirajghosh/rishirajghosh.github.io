@@ -18,5 +18,6 @@ html {
 @media only screen and (max-width: 512px) {
   .home {
     width: 120%;
+    background-color: "#d8f9ff";
   }
 }
