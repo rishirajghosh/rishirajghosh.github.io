@@ -4,8 +4,8 @@ function Footer() {
   return (
   <div className="footer">
     <div>Made With <i class="fi fi-rr-circle-heart"></i> by</div>
-    <div>Rishiraj Ghosh © 2024</div>
-    </div>
+    <div class="myDiv">Rishiraj Ghosh <span class="myBig">©</span> 2024</div>
+  </div>
   );
 }
 

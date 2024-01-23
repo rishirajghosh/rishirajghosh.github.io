@@ -6,3 +6,15 @@
     align-items: center;
     margin-top: 24px;
 }
+
+/* Target the div element with the class "myDiv" */
+div.myDiv {
+    /* Apply styles to the div */
+    font-size: 16px; /* Set the base font size */
+}
+  
+  /* Target the element with the class "myBig" within the div */
+div.myDiv .myBig {
+    /* Apply styles to the element with the class "myBig" */
+    font-size: 130%; /* Adjust the size as needed */
+}
