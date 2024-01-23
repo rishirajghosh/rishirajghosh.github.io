@@ -28,13 +28,13 @@ function App() {
             value: "#bebebe"
           },
           number: {
-            value: window.innerWidth >= 768 ? 80 : 20
+            value: window.innerWidth >= 768 ? 80 : 30
           },
           opacity: {
             value: { min: 0.3, max: 0.9 }
           },
           shape: {
-            type: "circle"
+            type: window.innerWidth >= 768 ? "circle" : "star"
           },
           size: {
             value: { min: 1, max: 4 }
