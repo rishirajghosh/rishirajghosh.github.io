@@ -2,7 +2,7 @@ import React from 'react';
 import './mobile.css'
 import { useState } from 'react'
 
-function Mobile() {
+function Mobile({ isOpen, setIsOpen}) {
   const [fix, setFix] = useState(false)
 
   function setFixed() {
@@ -17,7 +17,10 @@ function Mobile() {
 
 
   return <div className="mobile">
-    <div>
+    <div className="mobile">
+      <div className="close-icon" onClick={() => setIsOpen(!isOpen)}>
+        <i class="fi-rr-cross-circle"></i>
+      </div>
       <nav className={fix ? 'navbar fixed' : "mobile-option"}>
         <table>
 
