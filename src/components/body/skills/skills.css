@@ -1,7 +1,7 @@
 .skills {
     display: flex;
     flex-direction: column;
-    width: 91%;
+    width: 100%;
 }
 
 .skills-section {
