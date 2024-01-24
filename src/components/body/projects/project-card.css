@@ -65,7 +65,7 @@
 
 @media only screen and (max-width: 720px) {
     .project-photo {
-        width: 70%;
+        width: 50%;
     }
 
     .project-card {
