@@ -1,6 +1,6 @@
 .work-card {
     padding: 0px;
-    width: 85%;
+    width: 90%;
     margin-top: -18px;
     display: flex;
     justify-content: space-between;
@@ -31,14 +31,23 @@
     -webkit-box-orient: horizontal;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 80%;
+    max-width: 90%;
     word-wrap: break-word;
 }
-
 
 
 @media only screen and (max-width: 720px) {
     .work-card {
         width: 100%;
+    }
+    .work-desc {
+        text-align: left;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: horizontal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100%;
+        word-wrap: break-word;
     }
 }
