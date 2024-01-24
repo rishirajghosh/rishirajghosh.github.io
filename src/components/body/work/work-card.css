@@ -28,10 +28,10 @@
     text-align: left;
     display: -webkit-box;
     -webkit-line-clamp: 2;
-    -webkit-box-orient: horizontal;
-    overflow: hidden;
+    -webkit-box-orient: vertical;
     text-overflow: ellipsis;
     max-width: 80%;
+    word-wrap: break-word;
 }
 
 
