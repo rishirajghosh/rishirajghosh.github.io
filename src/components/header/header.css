@@ -8,7 +8,7 @@
 }
 
 .menu {
-    background-color: "d8f9ff";
+    background-color: #d8f9ff;
     display: flex;
     flex: 1;
     justify-content: flex-end;
