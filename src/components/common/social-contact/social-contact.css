@@ -22,10 +22,10 @@
 
 /* Glowing effect styles */
 .glow-container {
-    padding: 30px;
+    padding: 15px;
     cursor: pointer;
     margin: 20px;
-    margin-inline: 80px;
+    margin-inline: 50px;
     display: inline-block;
     position: relative;
   }
