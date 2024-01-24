@@ -57,8 +57,12 @@
         height: 24px;
     }
 
-    .glow-container:hover .glow-image,
-    .glow-container:hover .glow-image2 {
-        filter: none; /* Remove filter on hover for mobile devices */
-    }
+    .glow-container {
+        padding: 15px;
+        cursor: pointer;
+        margin: 20px;
+        margin-inline: 20px;
+        display: inline-block;
+        position: relative;
+      }
 }

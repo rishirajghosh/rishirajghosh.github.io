@@ -31,7 +31,7 @@
     margin-top: 50px;
     margin-right: 0;
     display: flex;
-    font-weight: 700;
+    font-weight: 100;
     background-color: rgb(208, 226, 254);
     transition: .3s ease-in-out;
 }
