@@ -13,9 +13,9 @@ function SocialContact() {
           target={index !== data.length - 1 ? "_blank" : "_self"}
           rel={index !== data.length - 1 ? "noopener noreferrer" : undefined}
         >
-          {/*<div className="glow-container">
-              <img src={item.icon} className={`${index !== data.length - 1 ? 'glow-image' : 'glow-image2'}`} alt={item.platform} />
-            </div> */}
+          <div>
+            <img src={item.icon} className={`${index !== data.length - 1 ? 'glow-image' : 'glow-image2'}`} alt={item.platform} />
+          </div>
         </a>
       ))}
     </div>
