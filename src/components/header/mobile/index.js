@@ -18,6 +18,7 @@ function Mobile({ isOpen, setIsOpen}) {
 
   return (
     <div className="mobile">
+      <div className="mobile">
       <div className="close-icon" onClick={() => setIsOpen(!isOpen)}>
         <i class="fi-rr-cross-circle"></i>
       </div>
@@ -73,6 +74,7 @@ function Mobile({ isOpen, setIsOpen}) {
 
         </table>
       </nav>
+      </div>
     </div >
   );
 }
