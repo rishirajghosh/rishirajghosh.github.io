@@ -16,13 +16,12 @@ function Mobile({ isOpen, setIsOpen}) {
   window.addEventListener("scroll", setFixed)
 
 
-  return <div className="mobile">
+  return (<div className="mobile">
       <div className="close-icon" onClick={() => setIsOpen(!isOpen)}>
         <i class="fi-rr-cross-circle"></i>
       </div>
       <nav className={fix ? 'navbar fixed' : "mobile-option"}>
         <table>
-
           <tr><td>
             <div className="mobile-option">
               <a href="#work">
@@ -73,7 +72,8 @@ function Mobile({ isOpen, setIsOpen}) {
 
         </table>
       </nav>
-    </div >;
+    </div >
+  );
 }
 
 export default Mobile;
