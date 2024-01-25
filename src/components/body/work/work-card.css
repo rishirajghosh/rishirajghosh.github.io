@@ -54,5 +54,6 @@
         height: 80px;
         width: 120px;
         border: 1px solid blue;
+        max-width: 30%;
     }
 }
