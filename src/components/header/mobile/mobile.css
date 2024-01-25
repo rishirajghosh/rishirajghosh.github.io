@@ -27,20 +27,19 @@
     height: 100%;
 }
 
-.mobile-option:nth-child(1) {
+.mobile-option {
     font-size: 12px;
     position: fixed;
-    top: 5px;
-    right: 5px;
+    right: 12px;
     display: flex;
 }
 
 .mobile-option:nth-child(2) {
-    font-size: 12px;
-    position: fixed;
-    top: 20px;
-    right: 5px;
-    display: flex;
+    margin-top: 24px;
+}
+
+.mobile-option:nth-child(3) {
+    margin-top: 36px;
 }
 
 .mobile-option a {
