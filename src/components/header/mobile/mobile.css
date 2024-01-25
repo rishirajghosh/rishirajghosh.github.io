@@ -43,10 +43,10 @@
 }
 
 .navbar.fixed {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 12px;
-    right: 0px;
+    right: 12px;
     display: flex;
-    background-color: rgb(208, 226, 254);
+    margin-bottom: 10px;
     transition: .3s ease-in-out;
 }
