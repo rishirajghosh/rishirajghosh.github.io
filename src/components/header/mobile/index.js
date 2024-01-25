@@ -23,7 +23,7 @@ function Mobile({ isOpen, setIsOpen}) {
         <i class="fi-rr-cross-circle"></i>
       </div>
       <div style={{ marginTop: '30px' }}>
-      <nav className={fix ? 'navbar fixed' : "mobile-option"}>
+      <nav className={fix ? 'navbar fixedmobile' : "mobile-option"}>
         <table>
           <tr><td>
             <div className="mobile-option">

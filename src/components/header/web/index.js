@@ -17,7 +17,7 @@ function Web() {
 
   return <div className="web">
     <div>
-      <nav className={fix ? 'navbar fixed' : "web-option"}>
+      <nav className={fix ? 'navbar fixedweb' : "web-option"}>
         <table>
 
           <tr><td>
