@@ -50,4 +50,9 @@
         max-width: 100%;
         word-wrap: break-word;
     }
+    .work-logo {
+        height: 80px;
+        width: 120px;
+        border: 1px solid blue;
+    }
 }
