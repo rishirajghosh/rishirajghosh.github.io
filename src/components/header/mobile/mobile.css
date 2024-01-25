@@ -15,7 +15,7 @@
     display: flex;
     justify-content: flex-end;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: -20px;
 }
 
 .mobile-options {
@@ -43,10 +43,10 @@
 }
 
 .navbar.fixed {
-    margin-top: 10px;
+    margin-top: 30px;
+    align-items: right;
     font-size: 12px;
-    right: 12px;
     display: flex;
-    margin-bottom: 10px;
+    background-color: rgb(208, 226, 254);
     transition: .3s ease-in-out;
 }
