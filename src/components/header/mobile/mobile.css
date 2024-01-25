@@ -28,6 +28,7 @@
 }
 
 .mobile-option {
+    margin-top: 20px;
     font-size: 12px;
     right: 12px;
     display: flex;
@@ -41,9 +42,9 @@
 }
 
 .navbar.fixed {
+    margin-top: 20px;
     font-size: 12px;
-    margin-top: 10px;
-    margin-right: 2px;
+    right: 12px;
     display: flex;
     background-color: rgb(208, 226, 254);
     transition: .3s ease-in-out;
