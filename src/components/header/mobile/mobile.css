@@ -1,6 +1,6 @@
 .mobile {
     background-color: #f4f4ea;
-    height: 70vh;
+    height: 78vh;
     width: 35vw;
     position: absolute;
     right: 0px;
@@ -9,6 +9,15 @@
     display: flex;
     flex-direction: column;
     font-size: 10px;
+}
+
+.navbar.fixed {
+    margin-top: 30px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(208, 226, 254);
+    transition: .3s ease-in-out;
 }
 
 .close-icon {
@@ -41,13 +50,4 @@
     text-decoration: none;
     color: blue;
     display: flex;
-}
-
-.navbar.fixed {
-    margin-top: 30px;
-    font-size: 12px;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(208, 226, 254);
-    transition: .3s ease-in-out;
 }
