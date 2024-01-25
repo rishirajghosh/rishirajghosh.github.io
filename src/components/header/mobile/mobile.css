@@ -32,14 +32,7 @@
     position: fixed;
     right: 12px;
     display: flex;
-}
-
-.mobile-option:nth-child(2) {
-    margin-top: 24px;
-}
-
-.mobile-option:nth-child(3) {
-    margin-top: 36px;
+    margin-bottom: 20px;
 }
 
 .mobile-option a {
