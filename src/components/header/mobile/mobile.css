@@ -1,6 +1,6 @@
 .mobile {
     background-color: #f4f4ea;
-    height: 15vh;
+    height: 25vh;
     width: 35vw;
     position: absolute;
     right: 0px;
@@ -12,6 +12,7 @@
 }
 
 .close-icon {
+    margin-top: 4px;
     display: flex;
     justify-content: flex-end;
     font-size: 24px;
@@ -29,7 +30,7 @@
 }
 
 .mobile-option {
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 12px;
     right: 12px;
     display: flex;
