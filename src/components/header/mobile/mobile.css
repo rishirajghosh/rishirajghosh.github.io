@@ -45,7 +45,6 @@
 .navbar.fixed {
     margin-top: 30px;
     font-size: 12px;
-    position: absolute;
     display: flex;
     flex-direction: column;
     background-color: rgb(208, 226, 254);
