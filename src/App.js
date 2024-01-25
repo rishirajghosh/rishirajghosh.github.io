@@ -28,7 +28,7 @@ function App() {
             value: "#bebebe"
           },
           number: {
-            value: window.innerWidth >= 768 ? 80 : 30
+            value: window.innerWidth >= 768 ? 80 : 20
           },
           opacity: {
             value: { min: 0.3, max: 0.9 }
