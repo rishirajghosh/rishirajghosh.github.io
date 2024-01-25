@@ -20,7 +20,7 @@ function Mobile({ isOpen, setIsOpen}) {
     <div className="mobile">
       <div className="mobile">
       <div className="close-icon" onClick={() => setIsOpen(!isOpen)}>
-        <i class="fi-rr-cross-circle" style={{ marginBottom: '30px' }}></i>
+        <i class="fi-rr-cross-circle" style={{ margin: '30px' }}></i>
       </div>
       <nav className={fix ? 'navbar fixed' : "mobile-option"}>
         <table>
