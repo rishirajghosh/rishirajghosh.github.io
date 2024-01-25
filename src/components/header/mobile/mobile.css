@@ -43,9 +43,9 @@
 
 .navbar.fixed {
     margin-top: 30px;
-    align-items: right;
     font-size: 12px;
     display: flex;
+    justify-content: flex-end;
     background-color: rgb(208, 226, 254);
     transition: .3s ease-in-out;
 }
