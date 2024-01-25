@@ -28,8 +28,8 @@
 }
 
 .mobile-option {
-    font-size: 10px;
-    margin: 12px 0px;
+    font-size: 12px;
+    margin: 12px 12px 0 0;
     display: flex;
 }
 
@@ -39,14 +39,11 @@
     display: flex;
 }
 
-@media screen and (max-width: 720px) {
-    .navbar.fixed {
-        font-size: 10px;
-        margin-top: 10px;
-        margin-right: 2px;
-        display: flex;
-        font-weight: 10;
-        background-color: rgb(208, 226, 254);
-        transition: .3s ease-in-out;
-    }
+.navbar.fixed {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-right: 2px;
+    display: flex;
+    background-color: rgb(208, 226, 254);
+    transition: .3s ease-in-out;
 }
