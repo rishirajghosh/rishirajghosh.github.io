@@ -6,7 +6,7 @@ export const SocialData = [
     },
     {
         platform: "Github",
-        icon: require("../../assets/icons/github5.png"),
+        icon: require("../../assets/icons/githubTransparent.png"),
         link: "https://github.com/rghosh24",
     },
     {
