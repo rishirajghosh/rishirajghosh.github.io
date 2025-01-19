@@ -55,7 +55,7 @@ function Web() {
             <td>
               <div className="web-option">
                 <a href="https://jmp.sh/8A2NmxS8" target="_blank" type="application/pdf" rel="noopener noreferrer">
-                  <i class="fi fi-rr-document"></i>Resume
+                  <i class="fi fi-rr-document"></i>&nbsp;Resume
                 </a>
               </div>
             </td>

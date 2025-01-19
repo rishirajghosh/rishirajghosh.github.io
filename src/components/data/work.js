@@ -5,6 +5,23 @@ export const WorkData = [
             <div><h1>Uber</h1><i>Software Engineer Intern</i></div>
         ),
         designation: "Software Engineer Intern",
+        dateJoining: "May 2024 ",
+        dateEnd: " Aug. 2024",
+        companyLogo: "https://helios-i.mashable.com/imagery/articles/03y6VwlrZqnsuvnwR8CtGAL/hero-image.fill.size_1248x702.v1623372852.jpg",
+        work: (
+            <ul>
+            <li>DOTCOM team - Building the tools that build over 1 million URLs on www.uber.com</li>
+            <li>Built a code editor with syntax highlighting and code autocompletion like Visual Studio using Microsoft’s Monaco Editor API, to be used by 1000 authors creating uber.com pages and authoring dynamic content via an internal scripting language</li>
+            <li>Utilized React, Fusion.js, GraphQL, JavaScript, TypeScript</li>
+            </ul> 
+        )
+    },
+
+    {
+        company: (
+            <div><h1>Uber</h1><i>Software Engineer Intern</i></div>
+        ),
+        designation: "Software Engineer Intern",
         dateJoining: "May 2023 ",
         dateEnd: " Aug. 2023",
         companyLogo: "https://helios-i.mashable.com/imagery/articles/03y6VwlrZqnsuvnwR8CtGAL/hero-image.fill.size_1248x702.v1623372852.jpg",
