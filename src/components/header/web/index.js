@@ -15,64 +15,66 @@ function Web() {
 
   window.addEventListener("scroll", setFixed)
 
-  return <div className="web">
-    <div>
-      <nav className={fix ? 'navbar fixedweb' : "web-option"}>
-        <table>
+  return (
+    <div className="web">
+      <div>
+        <nav className={fix ? 'navbar fixedweb' : "web-option"}>
+          <table>
 
-          <tr><td>
-            <div className="web-option">
-              <a href="#work">
-                <i class="fi-rr-laptop option-icon"></i>Work
-              </a>
-            </div>
-          </td>
-            <td>
+            <tr><td>
               <div className="web-option">
-                <a href="#projects" >
-                  <i class="fi-rr-edit-alt option-icon"></i>Projects
+                <a href="#work">
+                  <i class="fi-rr-laptop option-icon"></i>Work
                 </a>
               </div>
             </td>
-          </tr>
-          <tr>
-            <td>
-              <div className="web-option">
-                <a href="#skills">
-                  <i class="fi-rr-briefcase option-icon"></i>Skills
-                </a>
-              </div>
-            </td>
-            <td>
-              <div className="web-option">
-                <a href="#contact">
-                  <i class="fi fi-rr-user option-icon"></i>Contact
-                </a>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            {/* <td>
-              <div className="web-option">
-                <a href="" target="_blank" type="application/pdf" rel="noopener noreferrer">
-                  <i class="fi fi-rr-document"></i>&nbsp;Resume
-                </a>
-              </div>
-            </td> */}
-            <td></td>
-            <td style={{ display: 'flex', justifyContent: 'flex-end'}}>
-              <div className="web-option">
-                <a href="#top">
-                  <img style={{ width: 40, height: 29 }} src={require("../../../assets/rishi2.png")} className='glow-image' alt={"Rishiraj Ghosh"} />
+              <td>
+                <div className="web-option">
+                  <a href="#projects" >
+                    <i class="fi-rr-edit-alt option-icon"></i>Projects
                   </a>
-              </div>
-            </td>
-          </tr>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div className="web-option">
+                  <a href="#skills">
+                    <i class="fi-rr-briefcase option-icon"></i>Skills
+                  </a>
+                </div>
+              </td>
+              <td>
+                <div className="web-option">
+                  <a href="#contact">
+                    <i class="fi fi-rr-user option-icon"></i>Contact
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              {/* <td>
+                <div className="web-option">
+                  <a href="" target="_blank" type="application/pdf" rel="noopener noreferrer">
+                    <i class="fi fi-rr-document"></i>&nbsp;Resume
+                  </a>
+                </div>
+              </td> */}
+              <td></td>
+              <td style={{ display: 'flex', justifyContent: 'flex-end'}}>
+                <div className="web-option">
+                  <a href="#top">
+                    <img style={{ width: 40, height: 29 }} src={require("../../../assets/rishi2.png")} className='glow-image' alt={"Rishiraj Ghosh"} />
+                    </a>
+                </div>
+              </td>
+            </tr>
 
-        </table>
-      </nav>
+          </table>
+        </nav>
+      </div >
     </div >
-  </div >;
+  );
 }
 
 export default Web;
