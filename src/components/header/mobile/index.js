@@ -59,7 +59,7 @@ function Mobile({ isOpen, setIsOpen}) {
           <tr>
             {/* <td>
               <div className="mobile-option">
-                <a href="https://jmp.sh/8A2NmxS8" target="_blank" type="application/pdf" rel="noopener noreferrer">
+                <a href="" target="_blank" type="application/pdf" rel="noopener noreferrer">
                   <i class="fi fi-rr-document"></i>Resume
                 </a>
               </div>
