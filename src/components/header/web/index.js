@@ -62,7 +62,7 @@ function Web() {
             <td></td>
             <td style={{ display: 'flex', justifyContent: 'flex-end'}}>
               <div className="web-option">
-                <a href="#">
+                <a href="#top">
                   <img style={{ width: 40, height: 29 }} src={require("../../../assets/rishi2.png")} className='glow-image' alt={"Rishiraj Ghosh"} />
                   </a>
               </div>

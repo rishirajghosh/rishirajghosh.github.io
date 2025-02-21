@@ -67,7 +67,7 @@ function Mobile({ isOpen, setIsOpen}) {
             <td></td>
             <td style={{ display: 'flex', justifyContent: 'flex-end'}}>
               <div className="mobile-option">
-                <a href="#">
+                <a href="#top">
                   <img style={{ width: 22, height: 14 }} src={require("../../../assets/rishi2.png")} alt={"Rishiraj Ghosh"} />
                 </a>
               </div>
