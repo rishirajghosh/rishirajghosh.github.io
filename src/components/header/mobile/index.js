@@ -57,13 +57,14 @@ function Mobile({ isOpen, setIsOpen}) {
             </td>
           </tr>
           <tr>
-            <td>
+            {/* <td>
               <div className="mobile-option">
                 <a href="https://jmp.sh/8A2NmxS8" target="_blank" type="application/pdf" rel="noopener noreferrer">
                   <i class="fi fi-rr-document"></i>Resume
                 </a>
               </div>
-            </td>
+            </td> */}
+            <td></td>
             <td style={{ display: 'flex', justifyContent: 'flex-end'}}>
               <div className="mobile-option">
                 <a href="#">
