@@ -30,14 +30,14 @@ function About() {
           <img style={{ 
             width: 400, 
             height: 400, 
-            borderRadius: 150 / 2, 
+            borderRadius: 200, 
+            boxShadow: "0px 10px 30px rgba(0, 0, 255, 0.3)",
             overflow: "hidden", 
-            borderWidth: 3, 
-            borderColor: "blue",
-            opacity: isImageLoaded ? 1 : 0,
-            transition: "opacity 3s ease-in-out", 
+            border: "2px solid blue",
+            opacity: isImageLoaded ? 0.9 : 0.1,
+            transition: "all 2s cubic-bezier(0.6, -0.6, 0.4, 1.7)",
           }}
-            src={require("../../../assets/pfpTransparent.png")}
+            src={require("../../../assets/headshot400.jpg")}
             className="picture"
             alt="Profile"
           />

@@ -9,7 +9,12 @@
 }
 
 .picture {
-    height: 420px;
+    height: 400px;
+}
+
+.picture:hover {
+    transform: scale(1.05);
+    filter: brightness(1.05);
 }
 
 .about-info {
