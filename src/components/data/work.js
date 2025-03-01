@@ -10,7 +10,7 @@ export const WorkData = [
         companyLogo: "https://helios-i.mashable.com/imagery/articles/03y6VwlrZqnsuvnwR8CtGAL/hero-image.fill.size_1248x702.v1623372852.jpg",
         work: (
             <ul>
-            <li>DOTCOM team - Building the tools that build over 1 million URLs on www.uber.com</li>
+            <li>Building the tools that build over 1 million URLs on www.uber.com</li>
             <li>Built a code editor with syntax highlighting and code autocompletion like Visual Studio using Microsoft’s Monaco Editor API, to be used by 1000 authors creating uber.com pages and authoring dynamic content via an internal scripting language</li>
             <li>Utilized React, Fusion.js, GraphQL, JavaScript, TypeScript</li>
             </ul> 
@@ -44,7 +44,7 @@ export const WorkData = [
         companyLogo: "https://i0.wp.com/ncil.org/wp-content/uploads/2018/03/CENTENE-Logo.jpg?ssl=1",
         work: (
             <ul>
-            <li>Backend Golang developer at a Fortune 25 healthcare company</li>
+            <li>Backend Go developer at a Fortune 25 healthcare company</li>
             <li>Authored and developed a watchdog service API for the TruCare Health team’s rules engine, which handles CRUD functionality for healthcare authorizations</li>
             <li>Created a multithreaded timer system using Goroutines to efficiently collect and analyze diagnostic data from other Centene APIs via REST calls. Integrated my project with a frontend Angular & Typescript UI</li>
             </ul>
