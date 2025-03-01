@@ -12,7 +12,7 @@ export const WorkData = [
             <ul>
             <li>Building the tools that build over 1 million URLs on www.uber.com</li>
             <li>Built a code editor with syntax highlighting and code autocompletion like Visual Studio using Microsoft’s Monaco Editor API, to be used by 1000 authors creating uber.com pages and authoring dynamic content via an internal scripting language</li>
-            <li>Utilized React, Fusion.js, GraphQL, JavaScript, TypeScript</li>
+            <li>React, Fusion.js, GraphQL, JavaScript, TypeScript</li>
             </ul> 
         )
     },
@@ -29,7 +29,7 @@ export const WorkData = [
             <ul>
             <li>Developed a backend signal Flink Job on the <a href="https://www.uber.com/us/en/drive/driver-app" target="_blank" rel="noopener noreferrer">Uber Driver App</a> that sends a notification to Early Lifecycle drivers after 5 minutes of not receiving a dispatch</li>
             <li>Processes 7,000 Kafka messages & gRPC calls per second to guide ELC drivers to Predicted High Earnings areas</li>
-            <li>Utilized Java, Apache Flink, Kafka, gRPC, SQL</li>
+            <li>Java, Apache Flink, Kafka, gRPC, SQL</li>
             </ul> 
         )
     },
@@ -45,7 +45,7 @@ export const WorkData = [
         work: (
             <ul>
             <li>Backend Go developer at a Fortune 25 healthcare company</li>
-            <li>Authored and developed a watchdog service API for the TruCare Health team’s rules engine, which handles CRUD functionality for healthcare authorizations</li>
+            <li>Developed a watchdog service API for the TruCare Health team’s rules engine, which handles CRUD functionality for healthcare authorizations</li>
             <li>Created a multithreaded timer system using Goroutines to efficiently collect and analyze diagnostic data from other Centene APIs via REST calls. Integrated my project with a frontend Angular & Typescript UI</li>
             </ul>
         )
