@@ -61,7 +61,7 @@ export const WorkData = [
         companyLogo: require("../../assets/icons/cap1FIRE.jpg"),
         work: (
             <ul>
-            <li>Researched with Python using Tensorflow & Keras to train and test predictive models with Dr. Raymond Tu</li>
+            <li>Researched using Python,Tensorflow & Keras to train and test predictive models with Dr. Raymond Tu</li>
             <li>Developed a Music Recommendation System: implemented data preprocessing, CNN, Triplet Loss Model & K-nearest neighbors while training on 10,000 Spotify playlists</li>
             <li>Presented research project to 200+ undergraduate students to increase interest in FIRE and machine learning</li>
             <li>Specialized in research with Deep Q-Network’s & reinforcement learning to optimize video game AI performance</li>
