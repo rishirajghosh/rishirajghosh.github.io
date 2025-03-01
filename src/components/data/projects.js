@@ -19,9 +19,9 @@ export const ProjectData = [
     },
     {
         id: 3,
-        title: "GoLang Personal Budget CLI",
+        title: "Personal Budget CLI",
         about: "A demo app for a Personal Budget Command Line Interface for managing my monthly expenses written in Go.",
-        tags: [<h7 style={{ color: 'white' }}>GoLang</h7>],
+        tags: [<h7 style={{ color: 'white' }}>Go</h7>],
         github: "https://github.com/rghosh24/golang-personal-budget-cli",
         image: require("../../assets/budget.png")
     }
