@@ -44,9 +44,8 @@ export const WorkData = [
         companyLogo: "https://i0.wp.com/ncil.org/wp-content/uploads/2018/03/CENTENE-Logo.jpg?ssl=1",
         work: (
             <ul>
-            <li>Backend Go developer at a Fortune 25 healthcare company</li>
-            <li>Developed a watchdog service API for the TruCare Health team’s rules engine, which handles CRUD functionality for healthcare authorizations</li>
-            <li>Created a multithreaded timer system using Goroutines to efficiently collect and analyze diagnostic data from other Centene APIs via REST calls. Integrated my project with a frontend Angular & Typescript UI</li>
+            <li>Developed a Go watchdog service API for the TruCare Health team’s rules engine, which handles CRUD functionality for healthcare authorizations</li>
+            <li>Created a multithreaded timer system using Goroutines to efficiently collect and analyze diagnostic data from other Centene APIs via REST calls. Integrated with an Angular & Typescript UI.</li>
             </ul>
         )
     },
