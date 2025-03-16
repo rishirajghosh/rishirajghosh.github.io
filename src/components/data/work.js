@@ -11,7 +11,7 @@ export const WorkData = [
         work: (
             <ul>
             <li>Building the tools that build over 1 million URLs on www.uber.com</li>
-            <li>Built a code editor with syntax highlighting and code autocompletion like Visual Studio using Microsoft’s Monaco Editor API, to be used by 1000 authors creating uber.com pages and authoring dynamic content via an internal scripting language</li>
+            <li>Built a code editor displaying syntax highlighting, code autocompletion, and code folding like Visual Studio, with Microsoft’s Monaco API. Used by 1000 authors creating uber.com pages and authoring dynamic content via an internal scripting language.</li>
             <li>React, Fusion.js, GraphQL, JavaScript, TypeScript</li>
             </ul> 
         )
