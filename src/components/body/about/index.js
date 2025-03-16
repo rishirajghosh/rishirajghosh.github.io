@@ -28,8 +28,8 @@ function About() {
         </div>
         <div className="about-photo">
           <img style={{ 
-            width: 475, 
-            height: 400, 
+            width: 400, 
+            height: 350, 
             borderRadius: 200, 
             boxShadow: "0px 10px 30px rgba(0, 0, 255, 0.3)",
             overflow: "hidden", 
