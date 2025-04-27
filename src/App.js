@@ -31,22 +31,22 @@ function App() {
             value: window.innerWidth >= 768 ? 80 : 20
           },
           opacity: {
-            value: { min: 0.3, max: 0.9 }
+            value: { min: 0.1, max: 0.8 }
           },
           shape: {
             type: "circle"
           },
           size: {
-            value: { min: 1, max: 4 }
+            value: { min: 1, max: 3 }
           },
           move: {
-            direction: "bottom-right",
+            direction: "top",
             enable: true,
-            speed: { min: 3, max: 5 },
+            speed: { min: 2, max: 3 },
             straight: false
           },
           collisions: { 
-            enable: false 
+            enable: true 
           }
         }
       }} init={initParticles} />)}
