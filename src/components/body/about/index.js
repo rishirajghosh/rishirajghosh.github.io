@@ -9,7 +9,7 @@ function About() {
 
   useEffect(() => {
     const image = new Image();
-    image.src = require("../../../assets/pfpTransparent.png");
+    image.src = require("../../../assets/headshot400.jpg");
 
     image.onload = () => {
       // Once the image is loaded, update the state to trigger the fade-in effect
