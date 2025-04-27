@@ -7,7 +7,7 @@ export const WorkData = [
         designation: "Software Engineer Intern",
         dateJoining: "May 2024 ",
         dateEnd: " Aug. 2024",
-        companyLogo: "https://static-00.iconduck.com/assets.00/uber-icon-2048x2048-1c9pt96a.png",
+        companyLogo: "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2024/10/0/0/uber-headquarters.jpg?ve=1&tl=1",
         work: (
             <ul>
             <li>Building the tools that build over 1 million URLs on www.uber.com</li>
@@ -24,7 +24,7 @@ export const WorkData = [
         designation: "Software Engineer Intern",
         dateJoining: "May 2023 ",
         dateEnd: " Aug. 2023",
-        companyLogo: "https://static-00.iconduck.com/assets.00/uber-icon-2048x2048-1c9pt96a.png",
+        companyLogo: "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2024/10/0/0/uber-headquarters.jpg?ve=1&tl=1",
         work: (
             <ul>
             <li>Developed a backend signal Flink Job on the <a href="https://www.uber.com/us/en/drive/driver-app" target="_blank" rel="noopener noreferrer">Uber Driver App</a> that sends a notification to Early Lifecycle drivers after 5 minutes of not receiving a dispatch</li>
