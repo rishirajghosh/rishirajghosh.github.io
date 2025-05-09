@@ -7,14 +7,39 @@
     margin-top: 24px;
 }
 
-/* Target the div element with the class "myDiv" */
+/* myDiv style */
 div.myDiv {
-    /* Apply styles to the div */
-    font-size: 16px; /* Set the base font size */
+    font-size: 16px;
+}
+
+/* arrow style */
+div.arrow {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 30px;
 }
   
-  /* Target the element with the class "myBig" within the div */
+/* myDiv .myBig style */
 div.myDiv .myBig {
-    /* Apply styles to the element with the class "myBig" */
-    font-size: 130%; /* Adjust the size as needed */
+    font-size: 130%;
+}
+
+.arrow a {
+    display: inline-flex;
+    align-items: center;
+}
+
+.arrow a:hover i {
+    color: #458FFF;
+    opacity: 0.3,
+}
+
+.arrow a:hover::after {
+    content: "Back to Top";
+    font-size: 16px;
+    padding-left: 8px;
+}
+
+.arrow i {
+    transition: opacity 0.2s ease-in-out, color 0.5s ease-in-out;
 }

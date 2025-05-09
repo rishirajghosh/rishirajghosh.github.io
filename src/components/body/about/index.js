@@ -24,7 +24,7 @@ function About() {
           <br /> <span className="info-name"><ReactTyped strings={["I'm Rishi."]} typeSpeed={60} showCursor={false}/></span>
           <br /> <br /> <i class="fi fi-rr-circle-star" alt="bulletpoint"></i> Software Engineer
           <br /> <i class="fi fi-rr-circle-star" alt="bulletpoint"></i> Computer Science & Business at <span className="info-name2"><a href="https://umd.edu" target="_blank" rel="noopener noreferrer"><ReactTyped strings={["University of Maryland"]} typeSpeed={100} showCursor={false}/></a></span>
-          <br /> <i class="fi fi-rr-circle-star" alt="bulletpoint"></i> Passionate about <span className="info-name2"><ReactTyped strings={["Full stack Software Engineering", "Distributed Systems", "Data Science", "Machine Learning", "AI", "Backend Development", "Social Good!"]} typeSpeed={110} backSpeed={20} loop={isMobile ? false : true} showCursor/></span>
+          <br /> <i class="fi fi-rr-circle-star" alt="bulletpoint"></i> Passionate about <span className="info-name2"><ReactTyped strings={["Full-stack Software Engineering", "Distributed Systems", "Data Science", "Machine Learning", "AI", "Backend Development", "Social Good!"]} typeSpeed={110} backSpeed={20} loop={isMobile ? false : true} showCursor/></span>
         </div>
         <div className="about-photo">
           <img style={{ 
