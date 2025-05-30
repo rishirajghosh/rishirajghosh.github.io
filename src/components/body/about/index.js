@@ -20,7 +20,7 @@ function About() {
   return (
     <div className="about">
       <div className="about-top">
-        <div className="about-info">👋🏻 <ReactTyped strings={["Hi,"]} typeSpeed={40} showCursor={false}/>
+        <div className="about-info">👋 <ReactTyped strings={["Hi,"]} typeSpeed={40} showCursor={false}/>
           <br /> <span className="info-name"><ReactTyped strings={["I'm Rishi."]} typeSpeed={60} showCursor={false}/></span>
           <br /> <br /> <i class="fi fi-rr-circle-star" alt="bulletpoint"></i> Software Engineer
           <br /> <i class="fi fi-rr-circle-star" alt="bulletpoint"></i> Computer Science & Business at <span className="info-name2"><a href="https://umd.edu" target="_blank" rel="noopener noreferrer"><ReactTyped strings={["University of Maryland"]} typeSpeed={100} showCursor={false}/></a></span>
